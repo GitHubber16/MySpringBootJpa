@@ -16,7 +16,7 @@ public class MySpringBootAppRestController {
 	
 	@GetMapping("/")
 	public String hello() {
-		return "This is the homepage";
+		return "This is my homepage";
 	}
 	
 	@GetMapping("/saveuser")
